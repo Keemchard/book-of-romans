@@ -12,11 +12,13 @@ type Verse = {
 
 type Chapter = {
   chapter_num: number;
+  numberOfverses?: string;
   verses: Verse[];
 };
 
 type Books = {
   title: string;
+  numberOfChapters?: string;
   chapters: Chapter[];
 };
 
@@ -82,6 +84,190 @@ export const books: Books[] = [
           },
         ],
       },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
+      {
+        chapter_num: 2,
+        verses: [
+          {
+            verse_num: 1,
+            content: {
+              title:
+                "Paul, servant of Christ Jesus, called to be an apostle, set apart for the Gospel of God",
+              keyPoints: [
+                "Paul, a servant of Christ Jesus",
+                "Paul, called to be an apostle",
+                "Paul, separated for the Gospel of God",
+              ],
+              body: "This is the Romans Chapter 1 Verse 1 mock content",
+            },
+          },
+        ],
+      },
     ],
+  },
+  {
+    title: "Revelation",
+    chapters: [],
   },
 ];
